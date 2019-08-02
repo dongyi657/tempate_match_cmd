@@ -1,4 +1,5 @@
 ﻿# tempate_match_cmd
+ 环境QT opencv3.4.6
 .\template_match_cmd.exe 3 C:\Users\H237428\Pictures\src.JPG C:\Users\H237428\Pictures\temp2.JPG
 
 tempate_match_cmd.exe 
