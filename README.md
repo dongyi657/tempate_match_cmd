@@ -1,6 +1,15 @@
 ﻿# tempate_match_cmd
- 本工具主要函数是opencv中的matchTemplate, 通过它来实现图片匹配
- 
- minMaxLoc 是取极值，而不是所有匹配序列
+.\template_match_cmd.exe 3 C:\Users\H237428\Pictures\src.JPG C:\Users\H237428\Pictures\temp2.JPG
 
-该工具去极值再用minMaxLoc取。
+tempate_match_cmd.exe 
+ @方法1、3、5
+ @原图像
+ @查找图像
+ @返回QString
+ 匹配个数
+ (第一个匹配图像点位置)匹配极小值，匹配极大值
+
+  本工具图片匹配使用函数是opencv中的matchTemplate
+取最佳匹配值是用minMaxLoc
+但是minMaxLoc是取极值，而不是所有匹配
+该工具minMaxLoc循环取极值并记录。
